@@ -17,6 +17,5 @@ terraform {
 }
 
 provider "aws" {
-  profile    = master-tf-admin
   region     = var.aws_region
 }
